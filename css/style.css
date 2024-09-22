@@ -127,7 +127,7 @@ z-index: 1;
   }
   
   .imgdescription {
-    width: 220px;
+    width: 150px;
     position: absolute;
     color: #76B900;
     top: 15%;
@@ -139,16 +139,8 @@ z-index: 1;
   }
   
   .imgdescription h1 {
-    font-size: 18px;
-  }
-  
-  .navbar-links .nav-adj {
-    font-size: 16px;
-    margin-right: 2px;
-  }
-  
-  .dropdown-menu .dp-nav-item {
     font-size: 15px;
   }
+  
 }
 /* ;;; */
