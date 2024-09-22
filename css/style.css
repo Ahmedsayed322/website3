@@ -87,6 +87,7 @@ z-index: 1;
 
 @media(max-width:813px){
   .imgdescription{
+    width: 55%;
     top:20%
   }
 .imgdescription p{
