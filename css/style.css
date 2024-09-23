@@ -32,7 +32,7 @@ body{
 .img-con{
   margin-top: 40px;
   width:90vw !important;
-  height: 70vh;
+  height: 30vh;
 
 }
 
@@ -74,17 +74,24 @@ body{
   opacity:0.5
 }
 
-
-@media (max-width:496px) {
+@media (min-width:768px) {
+  .img-con{
+    
+    width:90vw !important;
+    height: 90vh;
+  
+  }
+}
+@media (max-width:573px) {
   /* .hero-image{
     flex-direction: column;
   } */
   .hero-image h1{
-    font-size: 20px;
+    font-size: 12px !important;
 
   }
   .hero-image p{
-    font-size: 15px;
+    font-size: 10px !important;
   }
 }
 @media (max-width:767px) {
@@ -93,7 +100,7 @@ body{
 
   }
   .hero-image p{
-    
+    font-size: 13px;
   }
 }
 @keyframes spin{
