@@ -65,7 +65,7 @@ body{
   width:102%;
   transform: translate(-50%, -50%);
   background: conic-gradient(from var(--angle),red,green,blue,orange,yellow,purple);
-  border-radius: 10px;
+  border-radius: 8px;
   animation: spin 3s linear infinite; /* Animation reference */
   transform-origin: center;
   z-index: -1; 
@@ -84,7 +84,7 @@ body{
   .img-con{
     
     width:90vw !important;
-    height: 75vh;
+    height: 70vh;
   
   }
 }
