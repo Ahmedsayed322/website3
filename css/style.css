@@ -41,8 +41,8 @@ border-image:conic-gradient(transparent 10%,orange,red,yellow) 1;
 }
 .img-con{
   margin-top: 40px;
-  width:90vw !important;
-  height: 30vh;
+  width:80vw !important;
+  height: 35vh;
  
 
 }
@@ -89,6 +89,9 @@ border-image:conic-gradient(transparent 10%,orange,red,yellow) 1;
   transform: translate(-50%, -50%) scale(1);
   filter: blur(1.5rem);
   opacity:0.5
+}
+.items-container{
+  margin-top: 50px;
 }
 
 @media (min-width:768px) {
