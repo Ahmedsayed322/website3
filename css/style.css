@@ -22,12 +22,12 @@ body{
 .dropdown-menu .adj-hover:hover {
   background-color: #333 !important;
 }
-.navbar .navbar-nav li:hover{
+.navbar .navbar-nav .nav-anime:hover{
   border-style:solid;
-  border-width: 2px;
-  border-image: conic-gradient(from var(--angle), transparent 50%,#fff) 1;
-  animation: spin 3s linear infinite; 
-  transform-origin: center; 
+  border-width: 1px;
+  border-image: conic-gradient(from var(--angle), transparent 50%,orange,red) 1;
+  animation: spin 1.5s linear infinite; 
+ 
 }
 .img-con{
   margin-top: 40px;
@@ -61,12 +61,12 @@ body{
   content: "";
   top:50%;
   left:50%;
-  height: 101%;
+  height: 101.5%;
   width:102%;
   transform: translate(-50%, -50%);
-  background: conic-gradient(from var(--angle),red,green,blue,orange,yellow,purple);
+  background: conic-gradient(from var(--angle), transparent 30%,orange,red);
   border-radius: 8px;
-  animation: spin 3s linear infinite; /* Animation reference */
+  animation: spin 3s linear infinite; 
   transform-origin: center;
   z-index: -1; 
   transform: scale(0);
@@ -111,9 +111,9 @@ body{
 }
 @keyframes spin{
   from {
-    --angle: 0deg; /* Start at 0 degrees */
+    --angle: 0deg; 
   }
   to {
-    --angle: 360deg; /* End at 360 degrees */
+    --angle: 360deg;
   }
 }
