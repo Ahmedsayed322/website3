@@ -33,6 +33,7 @@ body{
   margin-top: 40px;
   width:90vw !important;
   height: 30vh;
+ 
 
 }
 
@@ -48,6 +49,11 @@ body{
 .btn-primary{
   background-color: transparent;
   border: 2px solid red;
+}
+.item-card{
+
+  box-shadow: 4px 4px 8px rgba(243, 242, 242, 0.2);
+
 }
 /* ----------------------------------------------------- */
 .item-card::after,.item-card::before{
