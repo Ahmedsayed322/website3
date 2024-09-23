@@ -42,7 +42,7 @@ border-image:conic-gradient(transparent 10%,orange,red,yellow) 1;
 .img-con{
   margin-top: 40px;
   width:80vw !important;
-  height: 35vh;
+ 
  
 
 }
@@ -98,7 +98,7 @@ border-image:conic-gradient(transparent 10%,orange,red,yellow) 1;
   .img-con{
     
     width:90vw !important;
-    height: 70vh;
+   
   
   }
 }
