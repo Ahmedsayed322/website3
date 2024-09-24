@@ -126,19 +126,20 @@ border-image:conic-gradient(transparent 10%,orangered,red,yellow) 1;
   font-size: 19px;
   font-weight: bold;
   background-color: transparent;
-  border: 2px solid ;
+  border: 1px solid ;
   color: #FFF ;
-  border-radius: 10px;
+  
   padding: 8px 20px;
-  border-image: conic-gradient(from var(--angle), transparent 50%,orangered,red) 1;
-  animation: spin 1.5s linear infinite; 
-  transition: 0.5s;
+  border-image: conic-gradient(from var(--angle),orangered,red) 1;
+  /* /* animation: spin 1.5s linear infinite;  */
+  transition: 0.7s; 
 }
 .banner-btn:hover{
-  border-radius: 10px;
-  border: none;
-  background-color: rgba(255, 68, 0, 0.685);
-  color: #FFF;
+  border:0;
+  transition: scale(3) !important;
+  
+  background-color: rgba(255, 68, 0, 0.87);
+  color: #FFF !important;
   
 }
 .line-breaker{
