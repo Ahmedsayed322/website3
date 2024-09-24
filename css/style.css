@@ -72,13 +72,18 @@ border-image:conic-gradient(transparent 10%,orangered,red,yellow) 1;
   box-shadow: 1px 1px 2px 1px orangered;
 
 }
+.item-card:hover{
+
+
+
+}
 /* ----------------------------------------------------- */
 .item-card::after,.item-card::before{
   position: absolute;
   content: "";
   top:50%;
   left:50%;
-  height: 103%;
+  height: 102.5%;
   width:103.5%;
   transform: translate(-50%, -50%);
   background: conic-gradient(from var(--angle), transparent 30%,orangered,red);
@@ -92,7 +97,7 @@ border-image:conic-gradient(transparent 10%,orangered,red,yellow) 1;
   font-size: 25px;
 }
 .item-card:hover::after{
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1.0);
 }
 .item-card:hover::before{
   transform: translate(-50%, -50%) scale(1);
@@ -175,6 +180,12 @@ border-image:conic-gradient(transparent 10%,orangered,red,yellow) 1;
 }
 .icon-adj{
   font-size: 65px;
+}
+@media (max-width:992px) {
+  .navbar .navbar-nav .nav-anime:hover{
+    border: none;
+  }
+  
 }
 @media (min-width:768px) {
   .img-con{
