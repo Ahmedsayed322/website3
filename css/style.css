@@ -88,7 +88,7 @@ border-image:conic-gradient(transparent 10%,orangered,red,yellow) 1;
   transform: translate(-50%, -50%);
   background: conic-gradient(from var(--angle), transparent 30%,orangered,red);
   border-radius: 8px;
-  animation: spin 3s linear infinite; 
+  animation: spin 2s linear infinite; 
   transform-origin: center;
   z-index: -1; 
   transform: scale(0);
