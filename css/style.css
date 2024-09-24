@@ -4,16 +4,22 @@
   /* box-sizing: border-box; */
 }
 body{
-  background-color: black !important;
+  background-color: whitesmoke !important;
 }
 @property --angle{
   syntax: "<angle>";
   initial-value: 0deg;
   inherits: false;
 }
-.text-color{
-  color: #FFF !important;
+.text-color-primary{
+  color: orangered !important;
   
+  
+}
+
+.nav-text-color{
+  color: #FFF !important;
+  text-shadow: 1px 1px 2px  orangered;
 }
 .text-websize{
   font-size: 20px !important;
@@ -25,7 +31,7 @@ body{
 .navbar .navbar-nav .nav-anime:hover{
   border-style:solid;
   border-width: 1px;
-  border-image: conic-gradient(from var(--angle), transparent 50%,orange,red) 1;
+  border-image: conic-gradient(from var(--angle), transparent 50%,orangered,red) 1;
   animation: spin 1.5s linear infinite; 
  
 }
@@ -33,11 +39,11 @@ body{
   color:white;
  border: 1px solid ;
 
-border-image:conic-gradient(transparent 10%,orange,red,yellow) 1; 
+border-image:conic-gradient(transparent 10%,orangered,red,yellow) 1; 
   animation: spin 1.5s linear infinite;
 }
 .offer-des .btn-animation:hover{
-  border-image:conic-gradient(from var(--angle),transparent 10%,orange,red,yellow) 1; 
+  border-image:conic-gradient(from var(--angle),transparent 10%,orangered,red,yellow) 1; 
 }
 .img-con{
   margin-top: 40px;
@@ -62,8 +68,8 @@ border-image:conic-gradient(transparent 10%,orange,red,yellow) 1;
   border: 2px solid red;
 }
 .item-card{
-
-  box-shadow: 4px 4px 8px rgba(243, 242, 242, 0.2);
+  
+  box-shadow: 1px 1px 2px 1px orangered;
 
 }
 /* ----------------------------------------------------- */
@@ -72,15 +78,18 @@ border-image:conic-gradient(transparent 10%,orange,red,yellow) 1;
   content: "";
   top:50%;
   left:50%;
-  height: 101.5%;
-  width:102%;
+  height: 103%;
+  width:103.5%;
   transform: translate(-50%, -50%);
-  background: conic-gradient(from var(--angle), transparent 30%,orange,red);
+  background: conic-gradient(from var(--angle), transparent 30%,orangered,red);
   border-radius: 8px;
   animation: spin 3s linear infinite; 
   transform-origin: center;
   z-index: -1; 
   transform: scale(0);
+}
+.social-ul li a i{
+  font-size: 25px;
 }
 .item-card:hover::after{
   transform: translate(-50%, -50%) scale(1);
@@ -93,7 +102,80 @@ border-image:conic-gradient(transparent 10%,orange,red,yellow) 1;
 .items-container{
   margin-top: 50px;
 }
+/* ------------------------------------------------ */
+.banner{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/banner.jpg);
 
+  
+}
+.banner-content{
+  padding: 30px;
+
+  color: #FFF !important;
+  text-shadow: 0px 1px 2px  orangered;
+}
+.banner-content p{
+  font-size: 20px;
+}
+.banner-btn{
+  font-size: 19px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid ;
+  color: #FFF ;
+  border-radius: 10px;
+  padding: 8px 20px;
+  border-image: conic-gradient(from var(--angle), transparent 50%,orangered,red) 1;
+  animation: spin 1.5s linear infinite; 
+  transition: 0.5s;
+}
+.banner-btn:hover{
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 68, 0, 0.685);
+  color: #FFF;
+  
+}
+.line-breaker{
+  border:1px solid ;
+  border-color: rgba(255, 68, 0, 0.712);
+  width: 4em;
+  height:2px;
+  transition: 0.7s;
+  
+}
+.product-header:hover .line-breaker{
+  transform: scale(1.3);
+ 
+}
+.rating-list{
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.rating-list li {
+  
+  margin-right:5px;
+  font-size: 18px;
+}
+.price{
+  font-weight:bold ;
+  font-size: 20px;
+  color:#FFF;
+  display: inline-block;
+}
+.offer-price{
+  text-decoration: line-through;
+}
+.des-sec{
+  border-style: solid;
+  border-width:1.5px 0px;
+  border-color:orangered ;
+}
+.icon-adj{
+  font-size: 65px;
+}
 @media (min-width:768px) {
   .img-con{
     

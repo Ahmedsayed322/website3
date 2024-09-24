@@ -15,8 +15,8 @@
     </style>
     
   </head>
-  <body>
-    
+  
+    <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="javascript:void(0)">
@@ -28,32 +28,33 @@
         <div class="collapse navbar-collapse" id="mynavbar">
           <ul class="navbar-nav me-auto">
             <li class="nav-item mx-1 nav-anime">
-              <a class="nav-link text-color text-websize" href="javascript:void(0)">Home</a>
+              <a class="nav-link nav-text-color text-websize" href="javascript:void(0)">Home</a>
             </li>
             <li class="nav-item  mx-1 nav-anime ">
-              <a class="nav-link text-color text-websize" href="javascript:void(0)">Clothes</a>
+              <a class="nav-link nav-text-color text-websize" href="javascript:void(0)">Clothes</a>
             </li>
             <li class="nav-item dropdown mx-1 nav-anime">
-              <a class="nav-link dropdown-toggle text-color text-websize" href="#" role="button" data-bs-toggle="dropdown">Category</a>
+              <a class="nav-link dropdown-toggle nav-text-color text-websize" href="#" role="button" data-bs-toggle="dropdown">Category</a>
               <ul class="dropdown-menu bg-dark">
-                <li  ><a class="dropdown-item text-color  adj-hover text-websize" href="#">T-Shirt</a></li>
-                <li ><a class="dropdown-item text-color adj-hover text-websize" href="#">Shoes</a></li>
-                <li ><a class="dropdown-item text-color adj-hover text-websize" href="#">Hoodies</a></li>
+                <li  ><a class="dropdown-item nav-text-color  adj-hover text-websize" href="#">T-Shirt</a></li>
+                <li ><a class="dropdown-item nav-text-color adj-hover text-websize" href="#">Shoes</a></li>
+                <li ><a class="dropdown-item nav-text-color adj-hover text-websize" href="#">Hoodies</a></li>
               </ul>
             </li>
             <li class="nav-item  mx-1 nav-anime">
-              <a class="nav-link text-color text-websize" href="javascript:void(0)">About Us</a>
+              <a class="nav-link nav-text-color text-websize" href="javascript:void(0)">About Us</a>
             </li>
            
           </ul>
           <form class="d-flex my-2">
-            <input class="form-control me-2 text-color" type="text" placeholder="Search">
-            <button class="btn btn-primary text-color" type="button">Search</button>
+            <input class="form-control me-2 nav-text-color" type="text" placeholder="Search">
+            <button class="btn btn-primary nav-text-color" type="button">Search</button>
           </form>
         </div>
       </div>
     </nav>
-  
+  </header>
+  <!-- intro-section -->
   <section>
     <div class="container-fluid img-con">
       <div class=" hero-image">
@@ -62,7 +63,7 @@
           <h1 class="text-color">Biggest Clothe Sale <br>
           Up To 50% Off</h1>
         <p class="text-color text-offer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque culpa, totam sed maxime animi facilis!</p>
-        <button class=" px-3 py-2 btn-primary  btn-animation text-offer">Shop Now!</button>
+        <button class=" px-3 py-2 btn-primary text-dark  btn-animation text-offer" style="font-weight: bold;">Shop Now!</button>
       </div>
       <image src="./image/image1.png" mode="" class="w-50">
         </div>
@@ -72,17 +73,20 @@
       </div>
     </div>
   </section>
-    <div class="container-lg container-fluid items-container">
+    <!-- intro-section -->
+     <!-- our trends cards -->
+  <section>   
+     <div class="container-lg container-fluid items-container">
        <div class="row justify-content-between align-content-center">
         <div class="col-md-4 col-sm-12    my-3 item-col ">
-          <div class="card bg-dark item-card " >
-            <img class="card-img-top" src="./image/p20.png" alt="Card image" style="max-width: 250px; margin:auto;">
+          <div class="card bg-dark item-card text-center " >
+            <img class="card-img-top" src="./image/p20.png" alt="Card image" style="max-width: 200px; max-height:150px; margin:auto;">
             <div class="card-body">
-              <h4 class="card-title text-color">T-shirt White</h4>
-              <p class="card-text text-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione!
-                <h2 class="text-color">200$</h2>
+              <h4 class="card-title text-color-primary">T-shirt White</h4>
+              <p class="card-text nav-text-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione!
+                <h2 class="nav-text-color">$150</h2>
               </p>
-              <a href="#" class="btn btn-primary">See Profile</a>
+              <a href="#" class="btn btn-primary"><b>BUY NOW</b></a>
             </div>
           </div>
 
@@ -91,31 +95,361 @@
 
         </div>
         <div class="col-md-4 col-sm-12  my-3 item-col ">
-          <div class="card bg-dark  item-card" >
-          <img class="card-img-top" src="./image/p2.png" alt="Card image" style="max-width: 250px; margin:auto;">
+          <div class="card bg-dark  item-card text-center" >
+          <img class="card-img-top" src="./image/p2.png" alt="Card image" style="max-width: 200px;max-height:150px; margin:auto;">
           <div class="card-body">
-            <h4 class="card-titl text-color">T-shirt blue</h4>
-            <p class="card-text text-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione! <br>
-              <h2 class="text-color">200$</h2></p>
+            <h4 class="card-titl text-color-primary">T-shirt blue</h4>
+            <p class="card-text nav-text-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione! <br>
+              <h2 class="nav-text-color">$150</h2></p>
             
-            <a href="#" class="btn btn-primary text-color">See Profile</a>
+            <a href="#" class="btn btn-primary text-color"><b>BUY NOW</b></a>
           </div>
         </div>
       </div>
         <div class="col-md-4 col-sm-12  my-3 item-col">
-          <div class="card bg-dark item-card" >
-          <img class="card-img-top" src="./image/p4.png" alt="Card image" style="max-width: 250px; margin:auto;">
+          <div class="card bg-dark item-card text-center" >
+          <img class="card-img-top" src="./image/p4.png" alt="Card image" style="max-width: 200px;max-height:150px; margin:auto;">
           <div class="card-body">
-            <h4 class="card-title text-color">T-shirt black</h4>
-            <p class="card-text text-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione!
-              <h2 class="text-color">200$</h2>
+            <h4 class="card-title text-color-primary">T-shirt black</h4>
+            <p class="card-text nav-text-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione!
+              <h2 class="nav-text-color">$150</h2>
             </p>
-            <a href="#" class="btn btn-primary">See Profile</a>
+            <a href="#" class="btn btn-primary" ><b>BUY NOW !</b></a>
           </div>
         </div></div>
        </div>
     </div>
   </section>
+     <!-- our trends cards -->
+      <!-- banner-v1 -->
+<section>
+  <div class="container-fluid ">
+    <div class="bg-light p-5 text-center banner  my-5">
+      <div class="banner-content">
+      <h2>Get Up To 50% Off</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, animi?</p>
+      <button class=" banner-btn btn-fluid">SHOP NOW</button>
+      
+    </div>
+    </div>
+  </div>
+</section>
+ <!-- banner-v1 -->
+  <!-- products -->
+<section>
+
+  <div class="  container-fluid container-xl">
+    <div class="row my-5">
+      <h1 class="text-center  product-header">PRODUCTS
+        <div class="line-breaker my-3 m-auto"></div>
+      </h1>
+      
+      
+        <div class="col-lg-3 col-md-4 col-sm-6    my-3 item-col ">
+          <div class="card bg-dark item-card " >
+            <img class="card-img-top" src="./image/p13.png" alt="Card image" style="max-width:250px; max-height:160px; margin:auto;">
+            <div class="card-body">
+              <h4 class="card-title nav-text-color my-1">Men T-Shirt</h4>
+              <p class="card-text nav-text-color my-1">Lorem ipsum dolor sit amet.        
+              </p>
+              <ul  class=" rating-list my-1" >
+
+                <li ><i class="fa-solid fa-star" style="color:orangered"></i></li>
+                <li><i class="fa-solid fa-star " style="color:orangered"></i></li>
+                <li><i class="fa-solid fa-star " style="color:orangered"></i></li>
+                <li><i class="fa-solid fa-star" style="color:orangered"></i></li>
+                <li><i class="fa-regular fa-star" style="color:orangered"></i></li>
+              </ul>
+             <span class="price offer-price my-0">$200 </span>
+             <p class=" price">->$150</p>
+             <br>
+              <a href="#" class="btn btn-primary">Buy NOW!</a>
+          
+          </div>
+
+          
+      </div>
+
+      <!--  -->
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6    my-3 item-col ">
+      <div class="card bg-dark item-card " >
+        <img class="card-img-top" src="./image/p20.png" alt="Card image" style="max-width:250px; max-height:160px; margin:auto;">
+        <div class="card-body">
+          <h4 class="card-title nav-text-color my-1"> White T-shirt</h4>
+          <p class="card-text nav-text-color my-1">Lorem ipsum dolor sit amet.
+           
+          </p>
+          <ul  class=" rating-list my-1" >
+
+            <li ><i class="fa-solid fa-star" style="color:orangered"></i></li>
+            <li><i class="fa-solid fa-star " style="color:orangered"></i></li>
+            <li><i class="fa-solid fa-star " style="color:orangered"></i></li>
+            <li><i class="fa-solid fa-star" style="color:orangered"></i></li>
+            <li><i class="fa-regular fa-star" style="color:orangered"></i></li>
+          </ul>
+         <span class="price offer-price ">$200 </span>
+         <p class=" price">->$150</p>
+         <br>
+        
+    
+          <a href="#" class="btn btn-primary">Buy NOW!</a>
+      
+      </div>
+  </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6     my-3 item-col ">
+      <div class="card bg-dark item-card " >
+        <img class="card-img-top" src="./image/p2.png" alt="Card image" style="max-width:250px; max-height:160px; margin:auto;">
+        <div class="card-body">
+          <h4 class="card-title nav-text-color my-1"> blue jacket</h4>
+          <p class="card-text nav-text-color my-1">Lorem ipsum dolor sit amet.
+           
+          </p>
+          <ul  class=" rating-list my-1" >
+
+            <li ><i class="fa-solid fa-star" style="color:orangered"></i></li>
+            <li><i class="fa-solid fa-star " style="color:orangered"></i></li>
+            <li><i class="fa-solid fa-star " style="color:orangered"></i></li>
+            <li><i class="fa-solid fa-star" style="color:orangered"></i></li>
+            <li><i class="fa-regular fa-star" style="color:orangered"></i></li>
+          </ul>
+         <span class="price offer-price ">$200 </span>
+         <p class=" price">->$150</p>
+         <br>
+          <a href="#" class="btn btn-primary">Buy NOW!</a>
+      
+      </div>
+  </div>
+  
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6    my-3 item-col ">
+    <div class="card bg-dark item-card " >
+      <img class="card-img-top" src="./image/p4.png" alt="Card image" style="max-width:250px; max-height:160px; margin:auto;">
+      <div class="card-body">
+        <h4 class="card-title nav-text-color my-1">Black T-shirt</h4>
+        <p class="card-text nav-text-color my-1">Lorem ipsum dolor sit amet.
+         
+        </p>
+        <ul  class=" rating-list my-1" >
+
+          <li ><i class="fa-solid fa-star" style="color:orangered"></i></li>
+          <li><i class="fa-solid fa-star " style="color:orangered"></i></li>
+          <li><i class="fa-solid fa-star " style="color:orangered"></i></li>
+          <li><i class="fa-solid fa-star" style="color:orangered"></i></li>
+          <li><i class="fa-regular fa-star" style="color:orangered"></i></li>
+        </ul>
+       <span class="price offer-price ">$200 </span>
+       <p class=" price">->$150</p>
+       <br>
+        <a href="#" class="btn btn-primary">Buy NOW!</a>
+    
+    </div>
+</div>
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6    my-3 item-col ">
+    <div class="card bg-dark item-card " >
+      <img class="card-img-top" src="./image/p15.png" alt="Card image" style="max-width:250px; max-height:160px; margin:auto;">
+      <div class="card-body">
+        <h4 class="card-title nav-text-color my-1">Men Shoes</h4>
+        <p class="card-text nav-text-color my-1">Lorem ipsum dolor sit amet.
+         
+        </p>
+        <ul  class=" rating-list my-1" >
+
+          <li ><i class="fa-solid fa-star" style="color:orangered"></i></li>
+          <li><i class="fa-solid fa-star " style="color:orangered"></i></li>
+          <li><i class="fa-solid fa-star " style="color:orangered"></i></li>
+          <li><i class="fa-solid fa-star" style="color:orangered"></i></li>
+          <li><i class="fa-regular fa-star" style="color:orangered"></i></li>
+        </ul>
+       <span class="price offer-price ">$200 </span>
+       <p class=" price">->$150</p>
+       <br>
+        <a href="#" class="btn btn-primary">Buy NOW!</a>
+    
+    </div>
+
+    
+</div>
+
+<!--  -->
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6    my-3 item-col ">
+<div class="card bg-dark item-card " >
+  <img class="card-img-top" src="./image/p16.png" alt="Card image" style="max-width:250px; max-height:160px; margin:auto;">
+  <div class="card-body">
+    <h4 class="card-title nav-text-color my-1">Men jacket</h4>
+    <p class="card-text nav-text-color my-1">Lorem ipsum dolor sit amet.
+     
+    </p>
+    <ul  class=" rating-list my-1" >
+
+      <li ><i class="fa-solid fa-star" style="color:orangered"></i></li>
+      <li><i class="fa-solid fa-star " style="color:orangered"></i></li>
+      <li><i class="fa-solid fa-star " style="color:orangered"></i></li>
+      <li><i class="fa-solid fa-star" style="color:orangered"></i></li>
+      <li><i class="fa-regular fa-star" style="color:orangered"></i></li>
+    </ul>
+   <span class="price offer-price ">$200 </span>
+   <p class=" price">->$150</p>
+   <br>
+    <a href="#" class="btn btn-primary">Buy NOW!</a>
+
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6     my-3 item-col ">
+<div class="card bg-dark item-card " >
+  <img class="card-img-top" src="./image/p17.png" alt="Card image" style="max-width:250px; max-height:160px; margin:auto;">
+  <div class="card-body">
+    <h4 class="card-title nav-text-color my-1">Blue T-shirt</h4>
+    <p class="card-text nav-text-color my-1">Lorem ipsum dolor sit amet.
+     
+    </p>
+    <ul  class=" rating-list my-1" >
+
+      <li ><i class="fa-solid fa-star" style="color:orangered"></i></li>
+      <li><i class="fa-solid fa-star " style="color:orangered"></i></li>
+      <li><i class="fa-solid fa-star " style="color:orangered"></i></li>
+      <li><i class="fa-solid fa-star" style="color:orangered"></i></li>
+      <li><i class="fa-regular fa-star" style="color:orangered"></i></li>
+    </ul>
+   <span class="price offer-price ">$200 </span>
+   <p class=" price">->$150</p>
+   <br>
+    <a href="#" class="btn btn-primary">Buy NOW!</a>
+
+</div>
+</div>
+
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6    my-3 item-col ">
+<div class="card bg-dark item-card " >
+<img class="card-img-top" src="./image/p19.png" alt="Card image" style="max-width:250px; max-height:160px; margin:auto;">
+<div class="card-body">
+  <h4 class="card-title nav-text-color my-1">Men Jacket</h4>
+  <p class="card-text nav-text-color my-1">Lorem ipsum dolor sit amet.
+   
+  </p>
+  <ul  class=" rating-list my-1" >
+
+    <li ><i class="fa-solid fa-star" style="color:orangered"></i></li>
+    <li><i class="fa-solid fa-star " style="color:orangered"></i></li>
+    <li><i class="fa-solid fa-star " style="color:orangered"></i></li>
+    <li><i class="fa-solid fa-star" style="color:orangered"></i></li>
+    <li><i class="fa-regular fa-star" style="color:orangered"></i></li>
+  </ul>
+ <span class="price offer-price ">$200 </span>
+ <p class=" price">->$150</p>
+ <br>
+  <a href="#" class="btn btn-primary">BUY NOW!</a>
+
+</div>
+</div>
+</div>
+  </div>
+  </div>
+
+
+
+  <div class="container-xl container-fluid text-center">
+    <button class=" banner-btn btn-fluid view-more-btn my-5 text-dark">View More</button>
+  </div>
+</section>
+<!-- products -->
+ <!-- description -->
+<section>
+  <div class="container-sm">
+    <div class="row">
+      <div class="des-sec py-2">
+        <h2>PRODUCT</h2>
+        <p style="font-size: medium;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vero eius ipsam incidunt illum totam nostrum quidem sit cumque fugit. Accusamus rem praesentium labore tempore ullam porro quaerat fugiat cum ipsum, sint perferendis voluptate ad, quod reiciendis officia! In voluptate quae expedita sunt eum placeat alias soluta. Rem commodi, impedit error doloribus ratione at provident beatae, aut doloremque sunt possimus voluptas recusandae nam aliquid eos quia minus harum repellat quae eveniet laborum dolore esse voluptate sed. Voluptate ullam dolor sapiente neque labore hic nam odio qui consectetur porro minima nesciunt suscipit vitae obcaecati reiciendis itaque ipsum unde, debitis nemo soluta!</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- description -->
+ <!-- service -->
+  <section>
+    <div class="container-lg container-fluid py-2">
+      <div class="row py-3">
+        <div class="col-md-4 text-center">
+          <i class="fa-solid fa-cart-shopping  icon-adj"></i>
+                <h3 style="color: orangered; ">Free Shipping</h3>
+                <p class="text-muted info-text" style="font-size:19px; ">On order over $100</p>
+        </div>
+        <div class="col-md-4 text-center py-4 py-md-0">
+          <i class="fa-solid fa-truck  icon-adj"></i>
+          <h3 style="color: orangered; ">Fast Delivery</h3>
+          <p class="text-muted info-text" style="font-size:19px; ">World wide</p>
+
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fa-solid fa-thumbs-up  icon-adj"></i>
+          <h3 style="color: orangered; ">Big Choice</h3>
+          <p class="text-muted info-text" style="font-size:19px; ">Of product</p>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- service -->
+
+   <!-- footer -->
+<footer class="bg-dark">
+  <div class="container-lg container-fluid py-5">
+     <div class="row" >
+      <div class="col-md-6 col-lg-3">
+        <h3 class="text-color-primary py-3">Fashion</h3>
+        <p class="nav-text-color py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, hic?</p>
+        <p class="nav-text-color">
+          Egypt<br>Cairo<br>Qalubia
+        </p>
+        <div class="contact">
+          <i class="fa-solid fa-phone text-color-primary">+201003619642</i>
+          <br>
+          <i class="fa-solid fa-envelope text-color-primary"></i>
+          <span class="text-color-primary">ahmedsayed0575@gmail.com</span>
+
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <h5 class="text-color-primary">Usefull Links</h5>
+        <ul class="p-0 m-0">
+          <li class="nav-text-color my-3"><a href=""class="nav-text-color">Home</a></li>
+          <li class="nav-text-color my-3"><a href="" class="nav-text-color">Clothes</a></li>
+          <li class="nav-text-color my-3"><a href="" class="nav-text-color">About us</a></li>
+          <li class="nav-text-color my-3"><a href="" class="nav-text-color">Categories</a></li>
+          
+        </ul>
+      </div>
+      <div class=" col-md-6 col-lg-3">
+        <h5 class="text-color-primary">Our Services</h5>
+        <p class="my-3 nav-text-color">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, rem!</p>
+        <p >
+          <a class="nav-text-color" href="">Shop</a>
+          <br>
+          <a class="nav-text-color" href="">T-Shirts</a>
+          <br>
+          <a class="nav-text-color" href="">Jackets</a>
+        </p>
+      </div>
+      <div class="col-md-6 col-lg-3">
+<h5 class="text-color-primary">Our Social Networks</h5>
+<p class="nav-text-color my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ad?</p>
+<ul class="social-media d-flex justify-content-start social-ul" style="list-style: none; padding:0; margin:0; ">
+<li><a href="#" class="twiiter"><i class="fa-brands fa-twitter text-color-primary"></i></a></li>
+<li class="mx-4" > <a href="#" class="twiiter"><i class="fa-brands fa-facebook-f text-color-primary"></i></a></li>
+<li ><a href="#" class="twiiter"><i class="fa-brands fa-google-plus text-color-primary"></i></a></li>
+<li class="mx-4"><a href="#" class="twiiter"><i class="fa-brands fa-instagram text-color-primary"></i></a></li>
+<li><a href="#" class="twiiter"><i class="fa-brands fa-linkedin-in text-color-primary"></i></a>
+</div></li>
+</ul>
+      </div>
+     </div>
+  </div>
+</footer>
+     <!-- footer -->
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
