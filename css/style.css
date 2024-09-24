@@ -181,6 +181,21 @@ border-image:conic-gradient(transparent 10%,orangered,red,yellow) 1;
 .icon-adj{
   font-size: 65px;
 }
+.card-cart{
+  font-size: 25px;
+  color: #FFF;
+  transition: 1s;
+}
+.card-cart:hover{
+  color: orangered;
+}
+.price-f-size{
+  font-size: 25px;
+}
+.clothes-list:hover {
+  color: orangered !important;
+
+}
 @media (max-width:992px) {
   .navbar .navbar-nav .nav-anime:hover{
     border: none;
