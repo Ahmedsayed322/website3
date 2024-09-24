@@ -4,7 +4,7 @@
   /* box-sizing: border-box; */
 }
 body{
-  background-color: whitesmoke !important;
+  background-color: rgba(245, 245, 245, 0.678) !important;
 }
 @property --angle{
   syntax: "<angle>";
