@@ -224,6 +224,9 @@ border-image:conic-gradient(transparent 10%,orangered,red,yellow) 1;
   color: orangered !important;
 
 }
+.active-v{
+  background-color: orangered !important;
+}
 @media (max-width:992px) {
   .navbar .navbar-nav .nav-anime:hover{
     border: none;
