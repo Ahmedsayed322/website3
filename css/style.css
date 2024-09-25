@@ -113,6 +113,10 @@ border-image:conic-gradient(transparent 10%,orangered,red,yellow) 1;
 
   
 }
+
+.banner2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/banner2.jpg);
+}
 .search-btn{
   font-size: 20px !important;
 }
@@ -141,6 +145,9 @@ border-image:conic-gradient(transparent 10%,orangered,red,yellow) 1;
 }
 .banner-content p{
   font-size: 20px;
+}
+.banner-img-2{
+ 
 }
 .banner-btn{
   font-size: 19px;
