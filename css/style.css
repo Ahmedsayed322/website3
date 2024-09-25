@@ -1,284 +1,295 @@
-*{
+* {
   margin: 0;
   padding: 0;
   /* box-sizing: border-box; */
 }
-body{
+body {
   background-color: #f8f9fa !important;
- 
 }
-@property --angle{
-  syntax: "<angle>";
+@property --angle {
+  syntax: '<angle>';
   initial-value: 0deg;
   inherits: false;
 }
-.text-color-primary{
+.text-color-primary {
   color: rgba(255, 69, 0, 0.8) !important;
-
-  
 }
 
-.nav-text-color{
-  color: #FFF !important;
-  text-shadow: 1px 1px 2px  orangered;
+.nav-text-color {
+  color: #fff !important;
+  text-shadow: 1px 1px 2px orangered;
 }
-.text-websize{
+.text-websize {
   font-size: 20px !important;
 }
 
 .dropdown-menu .adj-hover:hover {
   background-color: #333 !important;
 }
-.navbar .navbar-nav .nav-anime:hover{
-  border-style:solid;
+.navbar .navbar-nav .nav-anime:hover {
+  border-style: solid;
   border-width: 1px;
-  border-image: conic-gradient(from var(--angle), transparent 50%,orangered,red) 1;
-  animation: spin 1.5s linear infinite; 
- 
-}
-.offer-des .btn-animation{
-  color:white;
- border: 1px solid ;
-
-border-image:conic-gradient(transparent 10%,orangered,red,yellow) 1; 
+  border-image: conic-gradient(
+      from var(--angle),
+      transparent 50%,
+      orangered,
+      red
+    )
+    1;
   animation: spin 1.5s linear infinite;
 }
-.offer-des .btn-animation:hover{
-  border-image:conic-gradient(from var(--angle),transparent 10%,orangered,red,yellow) 1; 
+.offer-des .btn-animation {
+  color: white;
+  border: 1px solid;
+
+  border-image: conic-gradient(transparent 10%, orangered, red, yellow) 1;
+  animation: spin 1.5s linear infinite;
 }
-.img-con{
+.offer-des .btn-animation:hover {
+  border-image: conic-gradient(
+      from var(--angle),
+      transparent 10%,
+      orangered,
+      red,
+      yellow
+    )
+    1;
+}
+.img-con {
   margin-top: 40px;
-  width:80vw !important;
- 
- 
-
+  width: 80vw !important;
 }
 
-
-.hero-image{
+.hero-image {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.hero-image p{
+.hero-image p {
   font-size: 20px;
 }
-.btn-primary{
+.btn-primary {
   background-color: transparent;
   border: 2px solid red;
 }
-.item-card{
-  
+.item-card {
   box-shadow: 1px 1px 2px 1px orangered;
-
 }
-.item-card:hover{
-
-
-
+.item-card:hover {
 }
 /* ----------------------------------------------------- */
-.item-card::after,.item-card::before{
+.item-card::after,
+.item-card::before {
   position: absolute;
-  content: "";
-  top:50%;
-  left:50%;
+  content: '';
+  top: 50%;
+  left: 50%;
   height: 102.5%;
-  width:103.5%;
+  width: 103.5%;
   transform: translate(-50%, -50%);
-  background: conic-gradient(from var(--angle), transparent 30%,orangered,red);
+  background: conic-gradient(
+    from var(--angle),
+    transparent 30%,
+    orangered,
+    red
+  );
   border-radius: 8px;
-  animation: spin 2s linear infinite; 
+  animation: spin 2s linear infinite;
   transform-origin: center;
-  z-index: -1; 
+  z-index: -1;
   transform: scale(0);
 }
-.social-ul li a i{
+.social-ul li a i {
   font-size: 25px;
 }
-.item-card:hover::after{
-  transform: translate(-50%, -50%) scale(1.0);
+.item-card:hover::after {
+  transform: translate(-50%, -50%) scale(1);
 }
-.item-card:hover::before{
+.item-card:hover::before {
   transform: translate(-50%, -50%) scale(1);
   filter: blur(1.5rem);
-  opacity:0.5
+  opacity: 0.5;
 }
-.items-container{
+.items-container {
   margin-top: 50px;
 }
 /* ------------------------------------------------ */
-.banner{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/banner.jpg);
-
-  
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../image/banner.jpg);
 }
 
-.banner2{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/banner2.jpg);
+.banner2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../image/banner2.jpg);
 }
-.search-btn{
+.search-btn {
   font-size: 20px !important;
 }
-.twiiter{
+.twiiter {
   font-size: 25px;
   line-height: 40px;
 }
-.search-btn:hover{
+.search-btn:hover {
   color: orangered !important;
 }
-.btn-log{
-  border:2px solid !important ;
-  border-image:conic-gradient(from var(--angle),transparent 10%,orangered,red,yellow) 1 !important;
+.btn-log {
+  border: 2px solid !important ;
+  border-image: conic-gradient(
+      from var(--angle),
+      transparent 10%,
+      orangered,
+      red,
+      yellow
+    )
+    1 !important;
   font-weight: bold !important;
-  
 }
-.btn-log:hover{
+.btn-log:hover {
   animation: spin 2s linear infinite !important;
-
 }
-.banner-content{
+.banner-content {
   padding: 30px;
 
-  color: #FFF !important;
-  text-shadow: 0px 1px 2px  orangered;
+  color: #fff !important;
+  text-shadow: 0px 1px 2px orangered;
 }
-.banner-content p{
+.banner-content p {
   font-size: 20px;
 }
-.banner-img-2{
- 
+.banner-img-2 {
 }
-.banner-btn{
+.banner-btn {
   font-size: 19px;
   font-weight: bold;
   background-color: transparent;
-  border: 1px solid ;
-  color: #FFF ;
-  
+  border: 1px solid;
+  color: #fff;
+
   padding: 8px 20px;
-  border-image: conic-gradient(from var(--angle),orangered,red) 1;
+  border-image: conic-gradient(from var(--angle), orangered, red) 1;
   /* /* animation: spin 1.5s linear infinite;  */
-  transition: 0.7s; 
+  transition: 0.7s;
 }
-.banner-btn:hover{
-  border:0;
+.banner-btn:hover {
+  border: 0;
   transition: scale(3) !important;
-  
+
   background-color: rgba(255, 68, 0, 0.87);
-  color: #FFF !important;
-  
+  color: #fff !important;
 }
-.line-breaker{
-  border:1px solid ;
+.line-breaker {
+  border: 1px solid;
   border-color: rgba(255, 68, 0, 0.712);
   width: 4em;
-  height:2px;
+  height: 2px;
   transition: 0.7s;
-  
 }
-.product-header:hover .line-breaker{
+.product-header:hover .line-breaker {
   transform: scale(1.3);
- 
 }
-.rating-list{
+.rating-list {
   list-style: none;
   display: flex;
   padding: 0;
   margin: 0;
 }
 .rating-list li {
-  
-  margin-right:5px;
+  margin-right: 5px;
   font-size: 18px;
 }
-.price{
-  font-weight:bold ;
+.price {
+  font-weight: bold;
   font-size: 20px;
-  color:#FFF;
+  color: #fff;
   display: inline-block;
 }
-.offer-price{
+.offer-price {
   text-decoration: line-through;
 }
-.des-sec{
+.des-sec {
   border-style: solid;
-  border-width:1.5px 0px;
-  border-color:orangered ;
+  border-width: 1.5px 0px;
+  border-color: orangered;
 }
-.icon-adj{
+.icon-adj {
   font-size: 65px;
 }
-.card-cart{
+.card-cart {
   font-size: 25px;
-  color: #FFF;
+  color: #fff;
   transition: 1s;
 }
-.card-cart:hover{
+.card-cart:hover {
   color: orangered;
 }
-.price-f-size{
+.price-f-size {
   font-size: 25px;
 }
 .clothes-list:hover {
   color: orangered !important;
-
 }
-.active-v{
+.active-v {
   background-color: orangered !important;
 }
-@media (max-width:992px) {
-  .navbar .navbar-nav .nav-anime:hover{
+@media (max-width: 992px) {
+  .navbar .navbar-nav .nav-anime:hover {
     border: none;
   }
-  
 }
-@media (min-width:768px) {
-  .img-con{
-    
-    width:90vw !important;
-   
-  
+@media (min-width: 768px) {
+  .img-con {
+    width: 90vw !important;
   }
 }
-@media (max-width:573px) {
+@media (max-width: 573px) {
   /* .hero-image{
     flex-direction: column;
   } */
-  .hero-image h1{
+  .hero-image h1 {
     font-size: 12px !important;
-
   }
-  .hero-image p{
+  .hero-image p {
     font-size: 10px !important;
   }
 }
-@media (max-width:767px) {
-  .hero-image h1{
+@media (max-width: 767px) {
+  .hero-image h1 {
     font-size: 23px;
-
   }
-  .hero-image p{
+  .hero-image p {
     font-size: 13px;
   }
 }
-@keyframes spin{
+@keyframes spin {
   from {
-    --angle: 0deg; 
+    --angle: 0deg;
   }
   to {
     --angle: 360deg;
   }
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    color: #ff4500; /* Softened orangered */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  color: #ff4500; /* Softened orangered */
 }
-p ,li,a,span,div ,ul{
+p,
+li,
+a,
+span,
+div,
+ul {
   font-family: 'Open Sans', sans-serif !important;
   font-weight: 400 !important;
   letter-spacing: 1px;
-  
+}
+.card .card-title {
+  text-transform: capitalize;
 }
