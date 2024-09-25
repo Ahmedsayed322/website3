@@ -113,6 +113,26 @@ border-image:conic-gradient(transparent 10%,orangered,red,yellow) 1;
 
   
 }
+.search-btn{
+  font-size: 20px !important;
+}
+.twiiter{
+  font-size: 25px;
+  line-height: 40px;
+}
+.search-btn:hover{
+  color: orangered !important;
+}
+.btn-log{
+  border:2px solid !important ;
+  border-image:conic-gradient(from var(--angle),transparent 10%,orangered,red,yellow) 1 !important;
+  font-weight: bold !important;
+  
+}
+.btn-log:hover{
+  animation: spin 2s linear infinite !important;
+
+}
 .banner-content{
   padding: 30px;
 
